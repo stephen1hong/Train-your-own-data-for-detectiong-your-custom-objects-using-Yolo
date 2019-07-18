@@ -43,8 +43,8 @@ For Yolov3 (classes + 5)*3
 6) Prepare train files:
  * Put files 'yolo-obj.cfg', 'data/train.txt', 'data/obj.names', 'data/obj.data', 'darknet19_448.conv.23' and directory data/img under the directory of executable 'darknet' file. 
    - for example, all these files are placed in directory: /darknet, in my computer.
- * Ensure the path in data/train.txt is right. If not, modified it. 
-    -for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
+ * Ensure the path in data/train.txt is right. If not, modify it. 
+   - for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
  
 7) Train on your own data
   ./darknet detector train data/obj.data yolo-obj.cfg darknet19_448.conv.23
