@@ -41,10 +41,10 @@ For Yolov3 (classes + 5)*3
  * at  http://pjreddie.com/media/files/darknet19_448.conv.23
 
 6) Prepare train files
-   * Put files: yolo-obj.cfg, data/train.txt, data/obj.names, data/obj.data, darknet19_448.conv.23 and directory data/img near with executable darknet-file
-   for example, all these files are placed in directory: /darknet, in my computer.
+   * Put files: yolo-obj.cfg, data/train.txt, data/obj.names, data/obj.data, darknet19_448.conv.23 and directory data/img under executable darknet file. 
+   - for example, all these files are placed in directory: /darknet, in my computer.
    * Change the path in data/train.txt and save it. 
-    for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
+    -for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
  
 7) Train on your own data
   ./darknet detector train data/obj.data yolo-obj.cfg darknet19_448.conv.23
