@@ -1,6 +1,6 @@
 # Train your own data for detectiong your custom objects using YOLOv2/v3 on Ubuntu 16.04
 
-1) get clone 2 githubs
+1)Install darknet and Yolo_mark
 * git clone darkent at https://github.com/AlexeyAB/darknet
    (or refer to: https://pjreddie.com/darknet/install/)   
 *  git clone Yolo_mark at https://github.com/AlexeyAB/Yolo_mark
@@ -45,7 +45,7 @@ For Yolov3 (classes + 5)*3
 6) Prepare train files
    * Put files: yolo-obj.cfg, data/train.txt, data/obj.names, data/obj.data, darknet19_448.conv.23 and directory data/img near with executable darknet-file
    for example, all these files are placed in directory: /darknet, in my computer.
-   * change the path in data/train.txt and save it. 
+   * Change the path in data/train.txt and save it. 
     for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
  
 7) Train on your own data
