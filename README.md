@@ -38,12 +38,12 @@ For Yolov2 (classes + 5)*5: https://github.com/AlexeyAB/Yolo_mark/blob/master/x6
 For Yolov3 (classes + 5)*3
 
 5) Download pre-trained weights for the convolutional layers (76 MB): 
- * at  http://pjreddie.com/media/files/darknet19_448.conv.23
+ at  http://pjreddie.com/media/files/darknet19_448.conv.23
 
 6) Prepare train files:
-   * Put files 'yolo-obj.cfg', 'data/train.txt', 'data/obj.names', 'data/obj.data', 'darknet19_448.conv.23' and directory data/img under the directory of executable 'darknet' file. 
+ * Put files 'yolo-obj.cfg', 'data/train.txt', 'data/obj.names', 'data/obj.data', 'darknet19_448.conv.23' and directory data/img under the directory of executable 'darknet' file. 
    - for example, all these files are placed in directory: /darknet, in my computer.
-   * Ensure the path in data/train.txt is right. If not, modified it. 
+ * Ensure the path in data/train.txt is right. If not, modified it. 
     -for example, change "x64/Release/data/img/sample.jpg"--> "data/img/sample.jpg"
  
 7) Train on your own data
