@@ -6,9 +6,9 @@
 *  git clone Yolo_mark at https://github.com/AlexeyAB/Yolo_mark
 
 2) compile 
-a) To compile in directory: /darknet 
+* To compile in directory: /darknet 
 make
-b)To compile in directory: /Yolo_mark
+* To compile in directory: /Yolo_mark
 cmake .
 make
 ./linux_mark.sh [for testing a GUI open for manual labelling] 
