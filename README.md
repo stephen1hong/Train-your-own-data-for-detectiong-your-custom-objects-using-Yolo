@@ -7,11 +7,11 @@
 
 2) compile 
 * To compile in directory: /darknet, run such command: 
-make
+   * make
 * To compile in directory: /Yolo_mark, run such commands:
-cmake .
-make
-./linux_mark.sh [for testing a GUI open for manual labelling] 
+   * cmake .
+   * make
+   * ./linux_mark.sh [ a GUI will open for manual labelling] 
 
 
 3) Prpapre your own images
