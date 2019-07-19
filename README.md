@@ -1,6 +1,6 @@
 # Train your own data for detectiong your custom objects using YOLOv2/v3 on Ubuntu 16.04
 
-1)Install darknet and Yolo_mark
+1) Install darknet and Yolo_mark
 * git clone darkent at https://github.com/AlexeyAB/darknet
    (or refer to: https://pjreddie.com/darknet/install/)   
 *  git clone Yolo_mark at https://github.com/AlexeyAB/Yolo_mark
