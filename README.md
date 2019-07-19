@@ -50,3 +50,8 @@ For Yolov3 (classes + 5)*3
   ./darknet detector train data/obj.data yolo-obj.cfg darknet19_448.conv.23
 
 8) Test your own images
+  * create test.txt file and load the images into the folder similar to data/train.txt, run such command:
+  ./darkent detector test data/obj.data yolo-obj.cfg backup/yolo-obj_xxx.weights -dont_show -ext_output <data/test.txt> result.txt
+  * To get mAP, run such command:
+  ./darkent detector map data/obj.data yolo-obj.cfg backup/yolo-obj_xxx.weights
+  
