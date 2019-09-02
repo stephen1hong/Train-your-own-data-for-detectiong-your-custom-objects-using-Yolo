@@ -26,10 +26,10 @@ Note: you should check the generated .txt at directory: x64/Release/data/img for
 
 4) Change parameters in configuration 
 
-a) Change parameter in files with obj.data nad obj.names
-* change numer of classes (objects for detection) in file x64/Release/data/obj.data: 
+* Change parameter in files with obj.data nad obj.names
+   ** change numer of classes (objects for detection) in file x64/Release/data/obj.data: 
    refer to: https://github.com/AlexeyAB/Yolo_mark/blob/master/x64/Release/data/obj.data#L1
-* put names of objects, one for each line in file x64/Release/data/obj.names: 
+   ** put names of objects, one for each line in file x64/Release/data/obj.names: 
    refer to: https://github.com/AlexeyAB/Yolo_mark/blob/master/x64/Release/data/obj.names
 
 b) Change 2 lines in file x64/Release/yolo-obj.cfg for training your custom objects:
