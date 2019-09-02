@@ -25,6 +25,7 @@ once you finished the draw over all objects of all images on GUI, your own datas
 Note: you should check the generated .txt at directory: x64/Release/data/img for each object in images and ensure it is right.
 
 4) Change parameters in configuration 
+
 a) Change parameter in files with obj.data nad obj.names
 * change numer of classes (objects for detection) in file x64/Release/data/obj.data: 
    refer to: https://github.com/AlexeyAB/Yolo_mark/blob/master/x64/Release/data/obj.data#L1
